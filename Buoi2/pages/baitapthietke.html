@@ -8,15 +8,12 @@
             html {
                 scroll-behavior: smooth;
             }
-            /* 1. Thiết lập vùng chứa menu */
             .nav-menu {
                 list-style-type: none;
                 margin: 0;
                 padding: 0;
                 display: flex;
             }
-
-            /* 2. Định dạng cho các đường dẫn (thẻ <a>) */
             .nav-menu li a {
                 display: block;
                 color: white;
@@ -27,15 +24,12 @@
                 font-weight: bold;
                 transition: background-color 0.3s;
             }
-
-            /* 3. Hiệu ứng tương tác (Hover) */
             .nav-menu li a:hover {
                 background-color: #5ebe2e;
             }
             .can-giua {
                 text-align: center;
             }
-            /* Đã xóa dấu cách sau dấu chấm và chuẩn hóa tên class */
             .khu-vuc-noi-dung {
                 max-width: 800px;
                 margin: 50px auto;
@@ -46,7 +40,6 @@
                 font-family: Arial, sans-serif;
                 line-height: 1.6;
             }
-            /* Đã xóa dấu cách sau dấu chấm */
             .tieu_de {
                 color: #14920f;
                 border-bottom: 2px solid #14920f;
@@ -201,23 +194,20 @@
         </style>
     </head>
     <body>
-        <!-- Khung HTML ngữ nghĩa đã được sắp xếp lại đúng cấu trúc -->
         <nav class="thanh-dieu-huong">
             <a href="#about" class="anh-dai-dien" title="Xem thông tin cá nhân">
-                <img src="https://i.pravatar.cc/150?img=11" alt="Avatar">
+                <img src="https://scontent.fhan18-1.fna.fbcdn.net/v/t39.30808-6/725305761_1047492837960845_559093270136942755_n.jpg?stp=dst-jpg_tt6&cstp=mx1708x1707&ctp=s1708x1707&_nc_cat=111&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=lOS_9_wZjjwQ7kNvwEQSyfl&_nc_oc=Adq59pl0xmqkSauCY09W5gM4jWcwF3_1q43_C0P16qeGiLNgk9-5aNMWLOsjtf0o9SI&_nc_zt=23&_nc_ht=scontent.fhan18-1.fna&_nc_gid=rFL5hchiiHVk42c3LTNwqw&_nc_ss=7b2a8&oh=00_AQCQNG8Rj-r-G8BMn0Ekzz51_riop2lSHYJ_kXPZVFL77g&oe=6A651DF6" alt="Avatar">
             </a>
-            <!-- Đưa thẻ ul vào bên trong cùng thẻ nav -->
             <ul class="nav-menu">
                 <li><a href="#about">Giới thiệu</a></li>
                 <li><a href="#hobby">Sở thích</a></li>
                 <li><a href="#skills">Kỹ năng</a></li>
                 <li><a href="#schedule">Thời khóa biểu</a></li>
-                <li><a href="#form">Form thông tin</a></li> <!-- Đã thêm dấu # -->
+                <li><a href="#form">Form thông tin</a></li>
                 <li><a href="#contact">Liên hệ</a></li>
             </ul>
         </nav>
         
-        <!-- Đưa thẻ h1 ra ngoài thanh điều hướng -->
         <h1 class="can-giua">WELCOME TO MY WEB</h1>
         
         <section id="about" class="khu-vuc-noi-dung">
@@ -242,7 +232,6 @@
             </ul>
         </section>
 
-        <!-- Đã sửa class khu_vuc_noi_dung thành khu-vuc-noi-dung -->
         <section id="skills" class="khu-vuc-noi-dung">
             <h3 class="tieu_de">Các kỹ năng:</h3>
             <ul>
@@ -322,7 +311,7 @@
                 </div>
                 
                 <label for="nganh-hoc">Ngành học:</label>
-                <!-- Đã sửa type="major" thành type="text" -->
+
                 <input type="text" id="nganh-hoc" placeholder="Ví dụ: CNTT" required>
                 
                 <button type="submit" class="nut-gui-form">Gửi Thông Tin</button>
@@ -334,7 +323,6 @@
             <div class="mang-xa-hoi">
                 <a href="https://www.facebook.com/nguyen.truong.58416" target="_blank" class="btn-facebook">Facebook</a>
                 <a href="https://github.com/vantruonghaui2007-del" target="_blank" class="btn-github">GitHub</a>
-                <!-- Đã thêm mailto: -->
                 <a href="mailto:vantruonghaui2007@gmail.com" class="btn-gmail">Gmail</a>
             </div>
         </section>
